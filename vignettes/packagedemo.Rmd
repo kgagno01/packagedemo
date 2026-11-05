@@ -1,0 +1,21 @@
+---
+title: "packagedemo"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{packagedemo}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(packagedemo)
+```
+
+Here is where you would write a tutorial for users to use your packages.
